@@ -1,0 +1,45 @@
+// Cambridge IGCSE English as a Second Language Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM109",
+  slug: "cambridge-igcse-english-as-a-second-language",
+  name: "Cambridge IGCSE English as a Second Language",
+  fullName: "IGCSE ESL",
+  alias: "IGCSE ESL",
+  family: "Cambridge IGCSE",
+  category: "School exams",
+  subcategory: "International secondary qualification",
+  country: "Global",
+  region: "Global",
+  languages: ["English"],
+  estimatedAnnualTakers: "high",
+  testingWindow: "Mar/Jun/Nov",
+  schedulePattern: "3 series/year",
+  ageGroup: "14-18",
+  targetUser: "International school student",
+  delivery: "Paper-based",
+  questionTypes: ["Reading","writing","listening","speaking optional"],
+  adaptivity: "Linear",
+  sections: "Multiple components",
+  scoringMode: "Grades",
+  essayOrSpeaking: "Speaking optional",
+  ipRisk: "Low",
+  contentReuse: "english_language",
+  uiEngine: "paper_language_mixed",
+  monetizationPotential: "Medium",
+  tier: "Tier 4",
+  launchWave: "Wave 6",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "Medium",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
